@@ -35,6 +35,8 @@ if ($_POST){
 
     <h1>Ajouter un article</h1>
     <br>
+    <a class="btn btn-primary" href="index.php" role="button">BACK TO LIST</a>
+    <br>
 <div class="row">
     <div class="col-12 col-md-6">
         <form method="post" action="">
@@ -51,7 +53,7 @@ if ($_POST){
                 <input type="date" required  max="<?php echo date('Y-m-d'); ?>" min="1970-01-01"  class="form-control" id="date" name="date">
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Add</button>
+            <button type="submit" class="btn btn-primary"> Add </button>
         </form>
     </div>
 </div>

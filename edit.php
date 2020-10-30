@@ -40,6 +40,9 @@ if ($_POST){
 <div class="row">
     <div class="col-12 col-md-6">
     <h4>Modification de l'article : <?php echo $oldTitle ?> </h4>
+    <br>
+    <a class="btn btn-primary" href="index.php" role="button">BACK TO LIST</a>
+    <br>
         <form method="post" action="">
             <div class="form-group" >
                 <label for="title"> Title : </label>
